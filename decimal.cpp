@@ -45,8 +45,12 @@ int convert(std::string binary) {
 
 int main() {
 
+	std::string user;
 
-	int number = convert("11100");
+	std::cout << "Binary: ";
+	std::cin >> user;
+
+	int number = convert(user);
 	std::cout << number << std::endl;
 
 	return 0;
